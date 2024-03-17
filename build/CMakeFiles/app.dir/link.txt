@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/app.dir/src/main.cpp.o -o ../bin/app   -L/home/gyl/gyl/cmake/lib  -Wl,-rpath,/home/gyl/gyl/cmake/lib ../lib/libone.a ../lib/libtwo.so ../lib/libthree.so 

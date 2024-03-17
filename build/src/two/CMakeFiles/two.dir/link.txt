@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libtwo.so -o ../../../lib/libtwo.so CMakeFiles/two.dir/__/main.cpp.o CMakeFiles/two.dir/2.cpp.o   -L/home/gyl/gyl/cmake/lib 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libthree.so -o ../../../lib/libthree.so CMakeFiles/three.dir/__/main.cpp.o CMakeFiles/three.dir/3.cpp.o   -L/home/gyl/gyl/cmake/lib 
