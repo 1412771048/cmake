@@ -6,5 +6,5 @@ int main() {
     one::f1();
     two::f1();
     three::f1();
-    std:: cout << 1 << std::endl;
+    std:: cout << 1;
 }
