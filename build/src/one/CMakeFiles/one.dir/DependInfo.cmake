@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/gyl/gyl/cmake/src/one/1.cpp" "src/one/CMakeFiles/one.dir/1.cpp.o" "gcc" "src/one/CMakeFiles/one.dir/1.cpp.o.d"
-  "/home/gyl/gyl/cmake/src/main.cpp" "src/one/CMakeFiles/one.dir/__/main.cpp.o" "gcc" "src/one/CMakeFiles/one.dir/__/main.cpp.o.d"
+  "/home/gyl/workspace/cmake/src/one/1.cpp" "src/one/CMakeFiles/one.dir/1.cpp.o" "gcc" "src/one/CMakeFiles/one.dir/1.cpp.o.d"
+  "/home/gyl/workspace/cmake/src/main.cpp" "src/one/CMakeFiles/one.dir/__/main.cpp.o" "gcc" "src/one/CMakeFiles/one.dir/__/main.cpp.o.d"
   )
 
 # Targets to which this target links.
