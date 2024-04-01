@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gyl/gyl/cmake
+CMAKE_SOURCE_DIR = /home/gyl/workspace/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gyl/gyl/cmake/build
+CMAKE_BINARY_DIR = /home/gyl/workspace/cmake/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gyl/gyl/cmake/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyl/gyl/cmake/build/CMakeFiles /home/gyl/gyl/cmake/build/src/three//CMakeFiles/progress.marks
-	cd /home/gyl/gyl/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/three/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyl/gyl/cmake/build/CMakeFiles 0
+	cd /home/gyl/workspace/cmake/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyl/workspace/cmake/build/CMakeFiles /home/gyl/workspace/cmake/build/src/three//CMakeFiles/progress.marks
+	cd /home/gyl/workspace/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/three/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyl/workspace/cmake/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gyl/gyl/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/three/clean
+	cd /home/gyl/workspace/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/three/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gyl/gyl/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/three/preinstall
+	cd /home/gyl/workspace/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/three/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gyl/gyl/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/three/preinstall
+	cd /home/gyl/workspace/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/three/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gyl/gyl/cmake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gyl/workspace/cmake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/three/CMakeFiles/three.dir/rule:
-	cd /home/gyl/gyl/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/three/CMakeFiles/three.dir/rule
+	cd /home/gyl/workspace/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/three/CMakeFiles/three.dir/rule
 .PHONY : src/three/CMakeFiles/three.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ three: src/three/CMakeFiles/three.dir/rule
 
 # fast build rule for target.
 three/fast:
-	cd /home/gyl/gyl/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/build
+	cd /home/gyl/workspace/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/build
 .PHONY : three/fast
 
 3.o: 3.cpp.o
@@ -135,7 +135,7 @@ three/fast:
 
 # target to build an object file
 3.cpp.o:
-	cd /home/gyl/gyl/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/3.cpp.o
+	cd /home/gyl/workspace/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/3.cpp.o
 .PHONY : 3.cpp.o
 
 3.i: 3.cpp.i
@@ -143,7 +143,7 @@ three/fast:
 
 # target to preprocess a source file
 3.cpp.i:
-	cd /home/gyl/gyl/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/3.cpp.i
+	cd /home/gyl/workspace/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/3.cpp.i
 .PHONY : 3.cpp.i
 
 3.s: 3.cpp.s
@@ -151,7 +151,7 @@ three/fast:
 
 # target to generate assembly for a file
 3.cpp.s:
-	cd /home/gyl/gyl/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/3.cpp.s
+	cd /home/gyl/workspace/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/3.cpp.s
 .PHONY : 3.cpp.s
 
 __/main.o: __/main.cpp.o
@@ -159,7 +159,7 @@ __/main.o: __/main.cpp.o
 
 # target to build an object file
 __/main.cpp.o:
-	cd /home/gyl/gyl/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/__/main.cpp.o
+	cd /home/gyl/workspace/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/__/main.cpp.o
 .PHONY : __/main.cpp.o
 
 __/main.i: __/main.cpp.i
@@ -167,7 +167,7 @@ __/main.i: __/main.cpp.i
 
 # target to preprocess a source file
 __/main.cpp.i:
-	cd /home/gyl/gyl/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/__/main.cpp.i
+	cd /home/gyl/workspace/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/__/main.cpp.i
 .PHONY : __/main.cpp.i
 
 __/main.s: __/main.cpp.s
@@ -175,7 +175,7 @@ __/main.s: __/main.cpp.s
 
 # target to generate assembly for a file
 __/main.cpp.s:
-	cd /home/gyl/gyl/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/__/main.cpp.s
+	cd /home/gyl/workspace/cmake/build && $(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/__/main.cpp.s
 .PHONY : __/main.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gyl/gyl/cmake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gyl/workspace/cmake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
