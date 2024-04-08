@@ -1,1 +1,1 @@
-/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/app.dir/src/main.cpp.o -o ../bin/app   -L/home/gyl/workspace/cmake/lib  -Wl,-rpath,/home/gyl/workspace/cmake/lib ../lib/libone.a ../lib/libtwo.so ../lib/libthree.so 
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/app.dir/src/main.cpp.o -o ../bin/app   -L/home/gyl/workspace/cmake/lib  -Wl,-rpath,/home/gyl/workspace/cmake/lib ../lib/libone.a ../lib/libtwo.so ../lib/libthree.so 

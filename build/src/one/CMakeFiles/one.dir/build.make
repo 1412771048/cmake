@@ -73,29 +73,29 @@ src/one/CMakeFiles/one.dir/__/main.cpp.o: src/one/CMakeFiles/one.dir/flags.make
 src/one/CMakeFiles/one.dir/__/main.cpp.o: ../src/main.cpp
 src/one/CMakeFiles/one.dir/__/main.cpp.o: src/one/CMakeFiles/one.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gyl/workspace/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/one/CMakeFiles/one.dir/__/main.cpp.o"
-	cd /home/gyl/workspace/cmake/build/src/one && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/one/CMakeFiles/one.dir/__/main.cpp.o -MF CMakeFiles/one.dir/__/main.cpp.o.d -o CMakeFiles/one.dir/__/main.cpp.o -c /home/gyl/workspace/cmake/src/main.cpp
+	cd /home/gyl/workspace/cmake/build/src/one && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/one/CMakeFiles/one.dir/__/main.cpp.o -MF CMakeFiles/one.dir/__/main.cpp.o.d -o CMakeFiles/one.dir/__/main.cpp.o -c /home/gyl/workspace/cmake/src/main.cpp
 
 src/one/CMakeFiles/one.dir/__/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/one.dir/__/main.cpp.i"
-	cd /home/gyl/workspace/cmake/build/src/one && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gyl/workspace/cmake/src/main.cpp > CMakeFiles/one.dir/__/main.cpp.i
+	cd /home/gyl/workspace/cmake/build/src/one && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gyl/workspace/cmake/src/main.cpp > CMakeFiles/one.dir/__/main.cpp.i
 
 src/one/CMakeFiles/one.dir/__/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/one.dir/__/main.cpp.s"
-	cd /home/gyl/workspace/cmake/build/src/one && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gyl/workspace/cmake/src/main.cpp -o CMakeFiles/one.dir/__/main.cpp.s
+	cd /home/gyl/workspace/cmake/build/src/one && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gyl/workspace/cmake/src/main.cpp -o CMakeFiles/one.dir/__/main.cpp.s
 
 src/one/CMakeFiles/one.dir/1.cpp.o: src/one/CMakeFiles/one.dir/flags.make
 src/one/CMakeFiles/one.dir/1.cpp.o: ../src/one/1.cpp
 src/one/CMakeFiles/one.dir/1.cpp.o: src/one/CMakeFiles/one.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gyl/workspace/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/one/CMakeFiles/one.dir/1.cpp.o"
-	cd /home/gyl/workspace/cmake/build/src/one && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/one/CMakeFiles/one.dir/1.cpp.o -MF CMakeFiles/one.dir/1.cpp.o.d -o CMakeFiles/one.dir/1.cpp.o -c /home/gyl/workspace/cmake/src/one/1.cpp
+	cd /home/gyl/workspace/cmake/build/src/one && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/one/CMakeFiles/one.dir/1.cpp.o -MF CMakeFiles/one.dir/1.cpp.o.d -o CMakeFiles/one.dir/1.cpp.o -c /home/gyl/workspace/cmake/src/one/1.cpp
 
 src/one/CMakeFiles/one.dir/1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/one.dir/1.cpp.i"
-	cd /home/gyl/workspace/cmake/build/src/one && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gyl/workspace/cmake/src/one/1.cpp > CMakeFiles/one.dir/1.cpp.i
+	cd /home/gyl/workspace/cmake/build/src/one && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gyl/workspace/cmake/src/one/1.cpp > CMakeFiles/one.dir/1.cpp.i
 
 src/one/CMakeFiles/one.dir/1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/one.dir/1.cpp.s"
-	cd /home/gyl/workspace/cmake/build/src/one && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gyl/workspace/cmake/src/one/1.cpp -o CMakeFiles/one.dir/1.cpp.s
+	cd /home/gyl/workspace/cmake/build/src/one && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gyl/workspace/cmake/src/one/1.cpp -o CMakeFiles/one.dir/1.cpp.s
 
 # Object files for target one
 one_OBJECTS = \
