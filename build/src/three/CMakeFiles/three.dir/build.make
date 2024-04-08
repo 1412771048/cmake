@@ -73,29 +73,29 @@ src/three/CMakeFiles/three.dir/__/main.cpp.o: src/three/CMakeFiles/three.dir/fla
 src/three/CMakeFiles/three.dir/__/main.cpp.o: ../src/main.cpp
 src/three/CMakeFiles/three.dir/__/main.cpp.o: src/three/CMakeFiles/three.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gyl/workspace/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/three/CMakeFiles/three.dir/__/main.cpp.o"
-	cd /home/gyl/workspace/cmake/build/src/three && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/three/CMakeFiles/three.dir/__/main.cpp.o -MF CMakeFiles/three.dir/__/main.cpp.o.d -o CMakeFiles/three.dir/__/main.cpp.o -c /home/gyl/workspace/cmake/src/main.cpp
+	cd /home/gyl/workspace/cmake/build/src/three && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/three/CMakeFiles/three.dir/__/main.cpp.o -MF CMakeFiles/three.dir/__/main.cpp.o.d -o CMakeFiles/three.dir/__/main.cpp.o -c /home/gyl/workspace/cmake/src/main.cpp
 
 src/three/CMakeFiles/three.dir/__/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/three.dir/__/main.cpp.i"
-	cd /home/gyl/workspace/cmake/build/src/three && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gyl/workspace/cmake/src/main.cpp > CMakeFiles/three.dir/__/main.cpp.i
+	cd /home/gyl/workspace/cmake/build/src/three && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gyl/workspace/cmake/src/main.cpp > CMakeFiles/three.dir/__/main.cpp.i
 
 src/three/CMakeFiles/three.dir/__/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/three.dir/__/main.cpp.s"
-	cd /home/gyl/workspace/cmake/build/src/three && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gyl/workspace/cmake/src/main.cpp -o CMakeFiles/three.dir/__/main.cpp.s
+	cd /home/gyl/workspace/cmake/build/src/three && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gyl/workspace/cmake/src/main.cpp -o CMakeFiles/three.dir/__/main.cpp.s
 
 src/three/CMakeFiles/three.dir/3.cpp.o: src/three/CMakeFiles/three.dir/flags.make
 src/three/CMakeFiles/three.dir/3.cpp.o: ../src/three/3.cpp
 src/three/CMakeFiles/three.dir/3.cpp.o: src/three/CMakeFiles/three.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gyl/workspace/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/three/CMakeFiles/three.dir/3.cpp.o"
-	cd /home/gyl/workspace/cmake/build/src/three && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/three/CMakeFiles/three.dir/3.cpp.o -MF CMakeFiles/three.dir/3.cpp.o.d -o CMakeFiles/three.dir/3.cpp.o -c /home/gyl/workspace/cmake/src/three/3.cpp
+	cd /home/gyl/workspace/cmake/build/src/three && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/three/CMakeFiles/three.dir/3.cpp.o -MF CMakeFiles/three.dir/3.cpp.o.d -o CMakeFiles/three.dir/3.cpp.o -c /home/gyl/workspace/cmake/src/three/3.cpp
 
 src/three/CMakeFiles/three.dir/3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/three.dir/3.cpp.i"
-	cd /home/gyl/workspace/cmake/build/src/three && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gyl/workspace/cmake/src/three/3.cpp > CMakeFiles/three.dir/3.cpp.i
+	cd /home/gyl/workspace/cmake/build/src/three && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gyl/workspace/cmake/src/three/3.cpp > CMakeFiles/three.dir/3.cpp.i
 
 src/three/CMakeFiles/three.dir/3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/three.dir/3.cpp.s"
-	cd /home/gyl/workspace/cmake/build/src/three && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gyl/workspace/cmake/src/three/3.cpp -o CMakeFiles/three.dir/3.cpp.s
+	cd /home/gyl/workspace/cmake/build/src/three && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gyl/workspace/cmake/src/three/3.cpp -o CMakeFiles/three.dir/3.cpp.s
 
 # Object files for target three
 three_OBJECTS = \
