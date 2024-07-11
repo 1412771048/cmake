@@ -1,18 +1,16 @@
-cmake_minimum_required(VERSION 3.22.1)
-project(app) #顶级cmake指定一下项目名
-set(CMAKE_BUILD_TYPE Release) #Debug/Release
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin) #程序生成位置
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib) #静态库生成位置
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib) #动态库生成位置
-include_directories(${CMAKE_SOURCE_DIR}/include/one ${CMAKE_SOURCE_DIR}/include/two ${CMAKE_SOURCE_DIR}/include/three) #头文件路径
-link_directories(${CMAKE_SOURCE_DIR}/lib) #库路径
-#上面几句只需要在顶级cmake中写，次级就不用写了，且格式基本就是这样不用改
+cmake_minimum_required(VERSION 3.15)
+if (NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE "Release")
+endif()
+set(CMAKE_CXX_FLAGS_DEBUG "-g -fsanitize=address")
+set(CMAKE_CXX_STANDARD_REQUIRED ON)                    #必须支持指定的c++标准
+set(CMAKE_CXX_EXTENSIONS OFF)                          #关闭gcc扩展
+set(CMAKE_CXX_STANDARD 23)                             #gcc>11即满足c++23
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/output) #程序生成位置, CMAKE_SOURCE_DIR是整个项目的顶级cmake路径
+set(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/output)    #库生成位置
+#以上只需要在一个工程的顶级cmake写即可
 
-#file(GLOB_RECURSE SRC "${CMAKE_SOURCE_DIR}/src/*.cpp") #收集src下所有cpp,也可aux_source_directory(. SRC) 
-aux_source_directory(${CMAKE_SOURCE_DIR}/src SRC) #源文件路径
-add_executable(app ${SRC}) #生成可执行程序
-target_link_libraries(app one two three) #库名
-
-add_subdirectory(${CMAKE_SOURCE_DIR}/src/one) #进入子目录编译
-add_subdirectory(${CMAKE_SOURCE_DIR}/src/two)
-add_subdirectory(${CMAKE_SOURCE_DIR}/src/three)
+#进入各个子模块编译一个个动态库
+add_subdirectory(one)
+add_subdirectory(two)
+add_subdirectory(three)

@@ -11,9 +11,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
-  "../src/one/CMakeLists.txt"
-  "../src/three/CMakeLists.txt"
-  "../src/two/CMakeLists.txt"
+  "../one/CMakeLists.txt"
+  "../three/CMakeLists.txt"
+  "../two/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
@@ -117,15 +117,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/one/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/two/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/three/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "one/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "two/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "three/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/app.dir/DependInfo.cmake"
-  "src/one/CMakeFiles/one.dir/DependInfo.cmake"
-  "src/two/CMakeFiles/two.dir/DependInfo.cmake"
-  "src/three/CMakeFiles/three.dir/DependInfo.cmake"
+  "one/CMakeFiles/one.dir/DependInfo.cmake"
+  "two/CMakeFiles/two.dir/DependInfo.cmake"
+  "three/CMakeFiles/start.dir/DependInfo.cmake"
   )

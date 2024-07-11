@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libone.a CMakeFiles/one.dir/__/main.cpp.o CMakeFiles/one.dir/1.cpp.o
-/usr/bin/ranlib ../../../lib/libone.a

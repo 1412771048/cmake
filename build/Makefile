@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gyl/workspace/cmake
+CMAKE_SOURCE_DIR = /home/gyl/work/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gyl/workspace/cmake/build
+CMAKE_BINARY_DIR = /home/gyl/work/cmake/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyl/workspace/cmake/build/CMakeFiles /home/gyl/workspace/cmake/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyl/work/cmake/build/CMakeFiles /home/gyl/work/cmake/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyl/workspace/cmake/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyl/work/cmake/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named app
-
-# Build rule for target.
-app: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app
-.PHONY : app
-
-# fast build rule for target.
-app/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-.PHONY : app/fast
-
-#=============================================================================
 # Target rules for targets named one
 
 # Build rule for target.
@@ -139,7 +126,7 @@ one: cmake_check_build_system
 
 # fast build rule for target.
 one/fast:
-	$(MAKE) $(MAKESILENT) -f src/one/CMakeFiles/one.dir/build.make src/one/CMakeFiles/one.dir/build
+	$(MAKE) $(MAKESILENT) -f one/CMakeFiles/one.dir/build.make one/CMakeFiles/one.dir/build
 .PHONY : one/fast
 
 #=============================================================================
@@ -152,45 +139,21 @@ two: cmake_check_build_system
 
 # fast build rule for target.
 two/fast:
-	$(MAKE) $(MAKESILENT) -f src/two/CMakeFiles/two.dir/build.make src/two/CMakeFiles/two.dir/build
+	$(MAKE) $(MAKESILENT) -f two/CMakeFiles/two.dir/build.make two/CMakeFiles/two.dir/build
 .PHONY : two/fast
 
 #=============================================================================
-# Target rules for targets named three
+# Target rules for targets named start
 
 # Build rule for target.
-three: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 three
-.PHONY : three
+start: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 start
+.PHONY : start
 
 # fast build rule for target.
-three/fast:
-	$(MAKE) $(MAKESILENT) -f src/three/CMakeFiles/three.dir/build.make src/three/CMakeFiles/three.dir/build
-.PHONY : three/fast
-
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+start/fast:
+	$(MAKE) $(MAKESILENT) -f three/CMakeFiles/start.dir/build.make three/CMakeFiles/start.dir/build
+.PHONY : start/fast
 
 # Help Target
 help:
@@ -200,13 +163,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... app"
 	@echo "... one"
-	@echo "... three"
+	@echo "... start"
 	@echo "... two"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
 .PHONY : help
 
 
