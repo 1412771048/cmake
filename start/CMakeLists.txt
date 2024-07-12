@@ -12,4 +12,4 @@ add_executable(${PROJECT_NAME} ${SRC})
 target_link_directories(${PROJECT_NAME} PRIVATE     #本模块依赖的库位置，PRIVATE更安全
     ${CMAKE_SOURCE_DIR}/output
 )
-target_link_libraries(${PROJECT_NAME} one two)      #本模块依赖的库
+target_link_libraries(${PROJECT_NAME} PRIVATE one two)      #本模块依赖的库

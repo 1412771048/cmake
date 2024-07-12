@@ -10,7 +10,7 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/output) #程序生成位置, CMAK
 set(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/output)    #库生成位置
 #以上只需要在一个工程的顶级cmake写即可
 
-#进入各个子模块编译一个个动态库
+#进入各个子模块编译一个个动态库和一个启动程序
 add_subdirectory(one)
 add_subdirectory(two)
-add_subdirectory(three)
+add_subdirectory(start)

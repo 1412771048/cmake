@@ -228,13 +228,13 @@ one_IS_TOP_LEVEL:STATIC=OFF
 one_SOURCE_DIR:STATIC=/home/gyl/work/cmake/one
 
 //Value Computed by CMake
-start_BINARY_DIR:STATIC=/home/gyl/work/cmake/build/three
+start_BINARY_DIR:STATIC=/home/gyl/work/cmake/build/start
 
 //Value Computed by CMake
 start_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-start_SOURCE_DIR:STATIC=/home/gyl/work/cmake/three
+start_SOURCE_DIR:STATIC=/home/gyl/work/cmake/start
 
 //Value Computed by CMake
 two_BINARY_DIR:STATIC=/home/gyl/work/cmake/build/two

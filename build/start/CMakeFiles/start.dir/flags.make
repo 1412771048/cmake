@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/gyl/work/cmake/three/../one -I/home/gyl/work/cmake/three/../two
+CXX_INCLUDES = -I/home/gyl/work/cmake/start/../one -I/home/gyl/work/cmake/start/../two
 
 CXX_FLAGS = -g -fsanitize=address -std=c++23
 
