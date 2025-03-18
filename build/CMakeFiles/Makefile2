@@ -65,19 +65,19 @@ CMAKE_BINARY_DIR = /home/gyl/work/cmake/build
 # The main recursive "all" target.
 all: one/all
 all: two/all
-all: three/all
+all: start/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: one/preinstall
 preinstall: two/preinstall
-preinstall: three/preinstall
+preinstall: start/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: one/clean
 clean: two/clean
-clean: three/clean
+clean: start/clean
 .PHONY : clean
 
 #=============================================================================
@@ -96,19 +96,19 @@ one/clean: one/CMakeFiles/one.dir/clean
 .PHONY : one/clean
 
 #=============================================================================
-# Directory level rules for directory three
+# Directory level rules for directory start
 
 # Recursive "all" directory target.
-three/all: three/CMakeFiles/start.dir/all
-.PHONY : three/all
+start/all: start/CMakeFiles/start.dir/all
+.PHONY : start/all
 
 # Recursive "preinstall" directory target.
-three/preinstall:
-.PHONY : three/preinstall
+start/preinstall:
+.PHONY : start/preinstall
 
 # Recursive "clean" directory target.
-three/clean: three/CMakeFiles/start.dir/clean
-.PHONY : three/clean
+start/clean: start/CMakeFiles/start.dir/clean
+.PHONY : start/clean
 
 #=============================================================================
 # Directory level rules for directory two
@@ -178,31 +178,31 @@ two/CMakeFiles/two.dir/clean:
 .PHONY : two/CMakeFiles/two.dir/clean
 
 #=============================================================================
-# Target rules for target three/CMakeFiles/start.dir
+# Target rules for target start/CMakeFiles/start.dir
 
 # All Build rule for target.
-three/CMakeFiles/start.dir/all: one/CMakeFiles/one.dir/all
-three/CMakeFiles/start.dir/all: two/CMakeFiles/two.dir/all
-	$(MAKE) $(MAKESILENT) -f three/CMakeFiles/start.dir/build.make three/CMakeFiles/start.dir/depend
-	$(MAKE) $(MAKESILENT) -f three/CMakeFiles/start.dir/build.make three/CMakeFiles/start.dir/build
+start/CMakeFiles/start.dir/all: one/CMakeFiles/one.dir/all
+start/CMakeFiles/start.dir/all: two/CMakeFiles/two.dir/all
+	$(MAKE) $(MAKESILENT) -f start/CMakeFiles/start.dir/build.make start/CMakeFiles/start.dir/depend
+	$(MAKE) $(MAKESILENT) -f start/CMakeFiles/start.dir/build.make start/CMakeFiles/start.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gyl/work/cmake/build/CMakeFiles --progress-num=3,4 "Built target start"
-.PHONY : three/CMakeFiles/start.dir/all
+.PHONY : start/CMakeFiles/start.dir/all
 
 # Build rule for subdir invocation for target.
-three/CMakeFiles/start.dir/rule: cmake_check_build_system
+start/CMakeFiles/start.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyl/work/cmake/build/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 three/CMakeFiles/start.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 start/CMakeFiles/start.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyl/work/cmake/build/CMakeFiles 0
-.PHONY : three/CMakeFiles/start.dir/rule
+.PHONY : start/CMakeFiles/start.dir/rule
 
 # Convenience name for target.
-start: three/CMakeFiles/start.dir/rule
+start: start/CMakeFiles/start.dir/rule
 .PHONY : start
 
 # clean rule for target.
-three/CMakeFiles/start.dir/clean:
-	$(MAKE) $(MAKESILENT) -f three/CMakeFiles/start.dir/build.make three/CMakeFiles/start.dir/clean
-.PHONY : three/CMakeFiles/start.dir/clean
+start/CMakeFiles/start.dir/clean:
+	$(MAKE) $(MAKESILENT) -f start/CMakeFiles/start.dir/build.make start/CMakeFiles/start.dir/clean
+.PHONY : start/CMakeFiles/start.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

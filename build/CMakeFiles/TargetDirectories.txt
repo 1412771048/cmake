@@ -6,6 +6,6 @@
 /home/gyl/work/cmake/build/two/CMakeFiles/two.dir
 /home/gyl/work/cmake/build/two/CMakeFiles/edit_cache.dir
 /home/gyl/work/cmake/build/two/CMakeFiles/rebuild_cache.dir
-/home/gyl/work/cmake/build/three/CMakeFiles/start.dir
-/home/gyl/work/cmake/build/three/CMakeFiles/edit_cache.dir
-/home/gyl/work/cmake/build/three/CMakeFiles/rebuild_cache.dir
+/home/gyl/work/cmake/build/start/CMakeFiles/start.dir
+/home/gyl/work/cmake/build/start/CMakeFiles/edit_cache.dir
+/home/gyl/work/cmake/build/start/CMakeFiles/rebuild_cache.dir

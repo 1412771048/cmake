@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gyl/work/cmake/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gyl/work/cmake/build/CMakeFiles /home/gyl/work/cmake/build/three//CMakeFiles/progress.marks
-	cd /home/gyl/work/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 three/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyl/work/cmake/build/CMakeFiles /home/gyl/work/cmake/build//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gyl/work/cmake/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gyl/work/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 three/clean
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -103,56 +103,57 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gyl/work/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 three/preinstall
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gyl/work/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 three/preinstall
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gyl/work/cmake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-three/CMakeFiles/start.dir/rule:
-	cd /home/gyl/work/cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 three/CMakeFiles/start.dir/rule
-.PHONY : three/CMakeFiles/start.dir/rule
+#=============================================================================
+# Target rules for targets named one
 
-# Convenience name for target.
-start: three/CMakeFiles/start.dir/rule
+# Build rule for target.
+one: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 one
+.PHONY : one
+
+# fast build rule for target.
+one/fast:
+	$(MAKE) $(MAKESILENT) -f one/CMakeFiles/one.dir/build.make one/CMakeFiles/one.dir/build
+.PHONY : one/fast
+
+#=============================================================================
+# Target rules for targets named two
+
+# Build rule for target.
+two: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 two
+.PHONY : two
+
+# fast build rule for target.
+two/fast:
+	$(MAKE) $(MAKESILENT) -f two/CMakeFiles/two.dir/build.make two/CMakeFiles/two.dir/build
+.PHONY : two/fast
+
+#=============================================================================
+# Target rules for targets named start
+
+# Build rule for target.
+start: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 start
 .PHONY : start
 
 # fast build rule for target.
 start/fast:
-	cd /home/gyl/work/cmake/build && $(MAKE) $(MAKESILENT) -f three/CMakeFiles/start.dir/build.make three/CMakeFiles/start.dir/build
+	$(MAKE) $(MAKESILENT) -f start/CMakeFiles/start.dir/build.make start/CMakeFiles/start.dir/build
 .PHONY : start/fast
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /home/gyl/work/cmake/build && $(MAKE) $(MAKESILENT) -f three/CMakeFiles/start.dir/build.make three/CMakeFiles/start.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /home/gyl/work/cmake/build && $(MAKE) $(MAKESILENT) -f three/CMakeFiles/start.dir/build.make three/CMakeFiles/start.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /home/gyl/work/cmake/build && $(MAKE) $(MAKESILENT) -f three/CMakeFiles/start.dir/build.make three/CMakeFiles/start.dir/main.cpp.s
-.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -162,10 +163,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... one"
 	@echo "... start"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... two"
 .PHONY : help
 
 
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gyl/work/cmake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

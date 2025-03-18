@@ -12,7 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "../one/CMakeLists.txt"
-  "../three/CMakeLists.txt"
+  "../start/CMakeLists.txt"
   "../two/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c"
@@ -119,12 +119,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "one/CMakeFiles/CMakeDirectoryInformation.cmake"
   "two/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "three/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "start/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "one/CMakeFiles/one.dir/DependInfo.cmake"
   "two/CMakeFiles/two.dir/DependInfo.cmake"
-  "three/CMakeFiles/start.dir/DependInfo.cmake"
+  "start/CMakeFiles/start.dir/DependInfo.cmake"
   )

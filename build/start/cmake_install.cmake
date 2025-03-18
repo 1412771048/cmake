@@ -1,4 +1,4 @@
-# Install script for directory: /home/gyl/work/cmake/three
+# Install script for directory: /home/gyl/work/cmake/start
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

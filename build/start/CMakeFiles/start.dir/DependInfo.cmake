@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/gyl/work/cmake/three/main.cpp" "three/CMakeFiles/start.dir/main.cpp.o" "gcc" "three/CMakeFiles/start.dir/main.cpp.o.d"
+  "/home/gyl/work/cmake/start/main.cpp" "start/CMakeFiles/start.dir/main.cpp.o" "gcc" "start/CMakeFiles/start.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
