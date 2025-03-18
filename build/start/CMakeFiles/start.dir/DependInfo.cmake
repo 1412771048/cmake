@@ -11,10 +11,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/gyl/work/cmake/start/main.cpp" "start/CMakeFiles/start.dir/main.cpp.o" "gcc" "start/CMakeFiles/start.dir/main.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gyl/work/cmake/build/one/CMakeFiles/one.dir/DependInfo.cmake"
-  "/home/gyl/work/cmake/build/two/CMakeFiles/two.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

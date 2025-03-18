@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../output/libone.pdb"
-  "../../output/libone.so"
+  "/home/gyl/work/cmake/output/libone.pdb"
+  "/home/gyl/work/cmake/output/libone.so"
   "CMakeFiles/one.dir/1.cpp.o"
   "CMakeFiles/one.dir/1.cpp.o.d"
 )

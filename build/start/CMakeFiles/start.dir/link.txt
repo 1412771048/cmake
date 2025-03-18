@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -fsanitize=address CMakeFiles/start.dir/main.cpp.o -o ../../output/start   -L/home/gyl/work/cmake/output  -Wl,-rpath,/home/gyl/work/cmake/output ../../output/libone.so ../../output/libtwo.so 
+/usr/bin/c++ -g -fsanitize=address CMakeFiles/start.dir/main.cpp.o -o /home/gyl/work/cmake/output/start   -L/home/gyl/work/cmake/output  -Wl,-rpath,/home/gyl/work/cmake/output /home/gyl/work/cmake/output/libone.so /home/gyl/work/cmake/output/libtwo.so 
