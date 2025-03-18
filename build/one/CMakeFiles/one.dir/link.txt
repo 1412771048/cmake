@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -g -fsanitize=address -shared -Wl,-soname,libone.so -o ../../output/libone.so CMakeFiles/one.dir/1.cpp.o   -L/home/gyl/work/cmake/output  -Wl,-rpath,/home/gyl/work/cmake/output ../../output/libtwo.so 
+/usr/bin/c++ -fPIC -g -fsanitize=address -shared -Wl,-soname,libone.so -o /home/gyl/work/cmake/output/libone.so CMakeFiles/one.dir/1.cpp.o   -L/home/gyl/work/cmake/output  -Wl,-rpath,/home/gyl/work/cmake/output /home/gyl/work/cmake/output/libtwo.so 

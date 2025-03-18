@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../output/libtwo.pdb"
-  "../../output/libtwo.so"
+  "/home/gyl/work/cmake/output/libtwo.pdb"
+  "/home/gyl/work/cmake/output/libtwo.so"
   "CMakeFiles/two.dir/2.cpp.o"
   "CMakeFiles/two.dir/2.cpp.o.d"
 )
