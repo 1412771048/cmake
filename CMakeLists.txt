@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.19)
 if (NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE "Release")
 endif()
@@ -13,4 +13,5 @@ set(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/output)    #库生成位置
 #进入各个子模块编译一个个动态库和一个启动程序
 add_subdirectory(one)
 add_subdirectory(two)
+
 add_subdirectory(start)
